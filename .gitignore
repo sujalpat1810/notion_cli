@@ -1,0 +1,10 @@
+node_modules/
+dist/
+coverage/
+*.log
+.env
+.env.*
+# local engine state (contains Notion IDs, opt-in to commit)
+.notion-cli/
+# raw API captures from the spike may contain workspace content
+scripts/spike/out/
